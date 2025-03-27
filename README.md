@@ -32,8 +32,9 @@ Create a new MySQL database for the project.
 Edit the hibernate.cfg.xml file in the src/main/resources folder to match your MySQL credentials (database name, username, password).
 
 ### 3. Deploy to Apache Tomcat
--Package your project into a .war file.
--Deploy the .war file to your Apache Tomcat server's webapps directory.
+Package your project into a .war file.
+
+Deploy the .war file to your Apache Tomcat server's webapps directory.
 
 ### 4. Run the Project
 Start the Tomcat server.
