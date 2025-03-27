@@ -37,7 +37,7 @@ Deploy the .war file to your Apache Tomcat server's webapps directory.
 
 ### 4. Run the Project
 Start the Tomcat server.
-Visit http://localhost:8080/user-management-system in your browser to access the application.
+Visit [http://localhost:8080/user-management-system](http://localhost:8080/User_Management_System) in your browser to access the application.
 
 ## Usage
 ### 1. Registration
