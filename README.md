@@ -54,41 +54,19 @@ This project allows users to register, log in, view/update their profiles, and v
 **Run the following script in MySQL to create the required database and table:**
 ```sql
 -- Create database
-CREATE DATABASE userdb;
-USE userdb;
+CREATE DATABASE user_management;
+USE user_management
 
 -- Create users table
 CREATE TABLE users (
-    id INT AUTO_INCREMENT PRIMARY KEY,
-    first_name VARCHAR(50) NOT NULL,
-    last_name VARCHAR(50) NOT NULL,
-    email VARCHAR(100) UNIQUE NOT NULL,
-    password VARCHAR(255) NOT NULL,
-    phone VARCHAR(15),
-    address VARCHAR(255),
-    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  name VARCHAR(100) NOT NULL,
+  email VARCHAR(100) UNIQUE NOT NULL,
+  password VARCHAR(255) NOT NULL,
+  phone VARCHAR(20),
+  address VARCHAR(255),
+  created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
 
-```
----
-
-## 📸 Screenshots
-
-### 🏠 Home Page
-![Home Page](<img width="1900" height="935" alt="localhost_8080_User_Management_System_index jsp" src="https://github.com/user-attachments/assets/e0688d39-d3c8-48f8-a8b1-477126718de2" />
-)
-
-![Uploading localhost_8080_User_Management_System_index.jsp.png…]()
-
-
-### 🔐 Login Page
-![Login Page](screenshots/login.png)
-
-### 📝 Registration Page
-![Registration Page](screenshots/register.png)
-
-### 👤 User Profile
-![User Profile](screenshots/profile.png)
-
-### 📋 User List
+ist
 ![User List](screenshots/users.png)
