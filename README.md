@@ -69,3 +69,26 @@ CREATE TABLE users (
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
 
+```
+---
+
+## 📸 Screenshots
+
+### 🏠 Home Page
+![Home Page](<img width="1900" height="935" alt="localhost_8080_User_Management_System_index jsp" src="https://github.com/user-attachments/assets/e0688d39-d3c8-48f8-a8b1-477126718de2" />
+)
+
+![Uploading localhost_8080_User_Management_System_index.jsp.png…]()
+
+
+### 🔐 Login Page
+![Login Page](screenshots/login.png)
+
+### 📝 Registration Page
+![Registration Page](screenshots/register.png)
+
+### 👤 User Profile
+![User Profile](screenshots/profile.png)
+
+### 📋 User List
+![User List](screenshots/users.png)
