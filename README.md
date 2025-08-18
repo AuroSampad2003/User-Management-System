@@ -67,6 +67,3 @@ CREATE TABLE users (
   address VARCHAR(255),
   created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
-
-ist
-![User List](screenshots/users.png)
